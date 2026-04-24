@@ -1,0 +1,18 @@
+### 注册用户
+POST http://127.0.0.1:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "alice",
+  "password": "123456",
+  "nickname": "爱丽丝"
+}
+
+### 登录
+POST http://127.0.0.1:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "alice",
+  "password": "123456"
+}

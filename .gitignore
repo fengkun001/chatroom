@@ -1,0 +1,26 @@
+# 虚拟环境（体积很大，不上传）
+venv/
+.venv/
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# PyCharm 配置
+.idea/
+
+# 敏感配置（密码不上传）
+config.py
+
+# 数据库文件
+*.db
+*.sqlite
+
+# 系统文件
+.DS_Store
+Thumbs.db
