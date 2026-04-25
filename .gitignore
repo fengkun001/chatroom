@@ -4,6 +4,7 @@ venv/
 Scripts/
 Lib/
 Include/
+uploads/
 pyvenv.cfg
 
 # Python 缓存
