@@ -2,7 +2,6 @@ from flask_socketio import SocketIO, emit, disconnect
 from flask_jwt_extended import decode_token
 from models import db, User, Message
 
-
 # 原来的
 socketio = SocketIO(cors_allowed_origins="*", async_mode='eventlet')
 
